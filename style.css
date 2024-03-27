@@ -1,5 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
 }
 
 /* Navigation Bar */
@@ -324,4 +325,14 @@ button:hover {
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
+}
+.image-container {
+    white-space: nowrap;
+}
+
+.image-container img {
+    display: inline-block;
+    vertical-align: top;
+    /* max-width: 50%; */
+    /* Adjust the width as needed */
 }
